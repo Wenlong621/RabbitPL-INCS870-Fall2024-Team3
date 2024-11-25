@@ -1,0 +1,30 @@
+{
+  "name": "870-PhishingScamDetectionOnEthereum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "account": "node data_Collection/getAccount.js",
+    "trans": "node data_Collection/getTransactions.js",
+    "check": "node data_Collection/checkPhising.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RabbitPL/870-PhishingScamDetectionOnEthereum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "save-exact": true,
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RabbitPL/870-PhishingScamDetectionOnEthereum/issues"
+  },
+  "homepage": "https://github.com/RabbitPL/870-PhishingScamDetectionOnEthereum#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "json2csv": "^6.0.0-alpha.2",
+    "node-fetch": "^2.7.0",
+    "puppeteer": "^23.9.0"
+  }
+}
